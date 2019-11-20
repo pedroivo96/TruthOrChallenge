@@ -12,6 +12,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -44,6 +45,15 @@ public class PlayersActivity extends AppCompatActivity {
         setContentView(R.layout.activity_players);
 
         bindViews();
+
+        playersListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+
+                openRemovePlayerDialog(position);
+                return true;
+            }
+        });
 
         category = getIntent().getStringExtra(categoryParameter);
 
@@ -98,7 +108,7 @@ public class PlayersActivity extends AppCompatActivity {
     }
 
     private void showExistPlayersLayout(){
-        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 0, 10.0f);
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 0, 1.0f);
         layoutExistPlayers.setLayoutParams(params);
     }
 
@@ -108,13 +118,47 @@ public class PlayersActivity extends AppCompatActivity {
     }
 
     private void showNoExistPlayersLayout(){
-        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 0, 10.0f);
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 0, 1.0f);
         layoutNoExistPlayers.setLayoutParams(params);
     }
 
     private void notShowNoExistPlayersLayout(){
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 0, 0.0f);
         layoutNoExistPlayers.setLayoutParams(params);
+    }
+
+    private void openRemovePlayerDialog(final int position){
+        AlertDialog alerta = null;
+
+        //Cria o gerador do AlertDialog
+        final AlertDialog.Builder builder = new AlertDialog.Builder(getContext(), R.style.MyDialogTheme);
+        //define o titulo
+        builder.setTitle("Remoção");
+        //define a mensagem
+        builder.setMessage("Você realmente deseja remover esse jogador ?");
+        //define um botão como positivo
+        builder.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface arg0, int arg1) {
+                //Toast.makeText(getContext(), "positivo=" + arg1, Toast.LENGTH_SHORT).show();
+
+                playerList.remove(position);
+                playerAdapter.notifyDataSetChanged();
+
+                savePlayersList();
+
+            }
+        });
+        //define um botão como negativo.
+        builder.setNegativeButton("Não", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface arg0, int arg1) {
+                //Toast.makeText(getContext(), "negativo=" + arg1, Toast.LENGTH_SHORT).show();
+
+            }
+        });
+        //cria o AlertDialog
+        alerta = builder.create();
+        //Exibe
+        alerta.show();
     }
 
     private void openAddPlayerDialog(){

@@ -29,6 +29,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="vertical"
+        android:gravity="center"
         android:id="@+id/layoutNoExistPlayers">
 
         <TextView
@@ -36,6 +37,7 @@
             android:layout_height="wrap_content"
             android:text="Não há jogadores!"
             android:textAlignment="center"
+            android:textSize="@dimen/body1"
             android:textColor="@color/primaryTextColor"/>
 
     </LinearLayout>

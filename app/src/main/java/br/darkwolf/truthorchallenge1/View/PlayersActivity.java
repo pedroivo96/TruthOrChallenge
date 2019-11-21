@@ -3,6 +3,7 @@ package br.darkwolf.truthorchallenge1.View;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -28,7 +29,7 @@ import br.darkwolf.truthorchallenge1.Utils.ConstantUtils;
 public class PlayersActivity extends AppCompatActivity {
 
     private String categoryParameter = "category";
-    private String category;
+    private int category;
     private ArrayList<String> playerList;
 
     private SharedPreferences prefs = null;
@@ -55,7 +56,7 @@ public class PlayersActivity extends AppCompatActivity {
             }
         });
 
-        category = getIntent().getStringExtra(categoryParameter);
+        category = getIntent().getIntExtra(categoryParameter, -1);
 
         prefs = getSharedPreferences(ConstantUtils.APPLICATION_ID, MODE_PRIVATE);
 
@@ -100,6 +101,10 @@ public class PlayersActivity extends AppCompatActivity {
 
                 break;
             case R.id.bGameStart:
+
+                Intent intent = new Intent(getContext(), GameActivity.class);
+                intent.putExtra(categoryParameter, category);
+                startActivity(intent);
 
                 break;
         }

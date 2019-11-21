@@ -1,3 +1,149 @@
 <resources>
     <string name="app_name">TruthOrChallenge</string>
+
+    <string-array name="truth_innocent">
+        <item>Qual a razão mais ridícula pelo qual você terminou com alguém?</item>
+        <item>Qual é a mania mais nojenta que você tem?</item>
+        <item>Fale alguma coisa que tem no seu histórico de navegação que você ficaria constrangido se alguém visse</item>
+        <item>Fale uma pessoa não famosa de quem você tem inveja</item>
+        <item>O que você faria se estivesse com dor de barriga e tivesse que fazer cocô em um banheiro público, mas acabasse o papel higiênico?</item>
+        <item>Qual a coisa mais embaraçosa que você já fez bêbado?</item>
+        <item>Qual é o seu maior prazer secreto?</item>
+        <item>Qual foi a coisa mais embaraçosa que você já fez?</item>
+        <item>Qual foi a coisa mais ilegal que você já fez?</item>
+        <item>Qual foi a pessoa mais aleatória que você já stalkeou nas redes sociais?</item>
+        <item>Qual foi a última coisa que você pesquisou no seu telefone?</item>
+        <item>Qual foi o pior presente que você já deu para alguém?</item>
+        <item>Quando foi a última vez que você chorou e por quê?</item>
+        <item>Quantos dias você já passou sem tomar banho?</item>
+        <item>Você já fez xixi nas calças depois de adulto?</item>
+        <item>Você já traiu algum namorado ou namorada?</item>
+        <item>Conte uma coisa que você espera que seus pais nunca descubram</item>
+        <item>Qual é o apelido mais vergonhoso que alguém já lhe deu?</item>
+        <item>Quando foi a última vez que você fez xixi na cama?</item>
+        <item>Qual foi o sonho mais assustador que você já teve?</item>
+        <item>Quem você acha que é a pessoa mais bonita aqui?</item>
+        <item>Se você tivesse que beijar um dos jogadores, quem seria?</item>
+        <item>Conte algo infantil que você ainda faz</item>
+        <item>Qual é o seu medo mais sombrio?</item>
+        <item>Com que pessoa você se arrepende profundamente de já ter se envolvido?</item>
+        <item>Qual a coisa mais estranha ou vergonhosa que você já fez por dinheiro?</item>
+        <item>Você já fez cocô nas calças em público?</item>
+        <item>Se você pudesse mudar de vida com uma celebridade por um dia, quem seria?</item>
+        <item>Qual a maior mentira que você já contou para alguém da sua família?</item>
+        <item>O que a maioria das pessoas pensa que é verdade sobre você, mas não é?</item>
+        <item>Qual foi a maior conquista que você já teve?</item>
+        <item>O que você faria se fosse do sexo oposto por uma semana?</item>
+        <item>Qual foi a coisa mais cara que você já roubou?</item>
+        <item>Qual foi o momento mais inapropriado em que você peidou?</item>
+        <item>Diga um conta que você tem no seu quarto e sente vergonha por isso.</item>
+        <item>Você já se arrependeu imediatamente após enviar uma mensagem? Qual?</item>
+        <item>Você já vomitou em público e teve que engolir?</item>
+        <item>Por que você terminou com seu último namorado ou namorada?</item>
+        <item>Qual a foto mais constrangedora que você tem no seu telefone?</item>
+    </string-array>
+
+    <string-array name="challenge_innocent">
+        <item>Vá até o banheiro e tire sua calcinha ou cueca, depois deixe-o na sua cabeça pelo resto do jogo</item>
+        <item>Uma pessoa irá jogar algo no vaso sanitário e depois você tem que pegar de volta com as próprias mãos</item>
+        <item>Tente fazer malabarismos com 3 objetos que o grupo escolher</item>
+        <item>Tente beber um copo de água (ou cerveja, caso tenha) usando os seus pés</item>
+        <item>Publique uma foto sua embaraçosa no seu Instagram ou Facebook</item>
+        <item>Molhe o rosto e passe farinha nele</item>
+        <item>Ligue para um amigo e diga que está grávida ou que vai ser pai</item>
+        <item>Ligue para uma lanchonete ou pizzaria e tente desabafar com o atendente, dizendo que seu namorada (o) terminou contigo</item>
+        <item>Ligue para sua mãe chorando dizendo que quer sua chupeta</item>
+        <item>Ligue para o quinto contato no seu telefone e cante um trecho de uma música que o grupo escolher</item>
+        <item>Invente um rap sobre sua situação amorosa atual</item>
+        <item>Finja ser um gato e se esfregue em todas as pessoas do grupo</item>
+        <item>Finja ser o animal de estimação da pessoa à sua esquerda</item>
+        <item>Finja que você é um peixe se debatendo fora d’água</item>
+        <item>Finja que você está parindo uma criança</item>
+        <item>Fale com um sotaque diferente pelo resto do jogo</item>
+        <item>Faça um chá com alguma coisa estranha (tipo uma meia) e depois beba</item>
+        <item>Faça uma serenata para alguém do grupo</item>
+        <item>Faça uma mímica descrevendo seu filme favorito para que o grupo adivinhe</item>
+        <item>Faça uma maquiagem em si mesmo usando itens e condimentos da cozinha</item>
+        <item>Faça uma apresentação de dança do ventre</item>
+        <item>Faça o quadradinho de oito (ou tente)</item>
+        <item>Faça lip sync (dublagem) de alguma música que o grupo escolher</item>
+        <item>Deixe que alguém te dê um tapa na cara</item>
+        <item>Deixe que alguém do grupo envie uma foto que ele escolher para algum contato</item>
+        <item>Deixe o grupo te colocar em uma posição embaraçosa e tire uma foto</item>
+        <item>Deixe alguém depilar uma parte do seu corpo</item>
+        <item>Dance alguma música que o grupo escolher</item>
+        <item>Coma uma colher cheia de pimenta ou molho picante</item>
+        <item>Coloque um cubo de gelo nas suas calças</item>
+        <item>Cheire as axilas da pessoa a sua direita</item>
+        <item>Cante uma música de funk como se fosse uma ópera</item>
+        <item>Beba um shot de alguma bebida alcoólica e depois gire por 30 segundos</item>
+        <item>Beba alguma mistura que o grupo irá fazer</item>
+        <item>Arraste sua bunda no tapete como se fosse um cachorro</item>
+        <item>A pessoa terá que lamber o rosto de todas as pessoas do mesmo sexo do círculo</item>
+        <item>Alguém do grupo irá escrever algo embaraçoso no seu corpo com uma caneta permanente</item>
+        <item>Se enrole em papel higiênico até ficar parecido com uma múmia</item>
+        <item>Saia de casa ou vá na sua varanda e grite bem alto “eu ainda amo meu ex”</item>
+        <item>Ligue para um restaurante e tente manter o atendente em linha por cinco minutos, imitando um gringo falando português</item>
+    </string-array>
+
+    <string-array name="truth_hot">
+        <item>Das pessoas nesta sala, com quem você mais gostaria de transar?</item>
+        <item>Como você realmente se sente sobre sexo anal?</item>
+        <item>Com que idade você se masturbou pela primeira vez?</item>
+        <item>Conte uma fantasia sexual que você nunca falou para ninguém.</item>
+        <item>Das pessoas nesta sala, com quem você se sentiria mais confortável para ficar nu?</item>
+        <item>Em quem você estava pensando na última vez que você se masturbou?</item>
+        <item>Já marcou de transar com alguém do Tinder?</item>
+        <item>Quais são os três adjetivos que melhor descrevem suas partes íntimas?</item>
+        <item>Qual a maior mentira que você já contou para algum namorado ou namorada e que nunca foi descoberto?</item>
+        <item>Qual a sua posição sexual favorita?</item>
+        <item>Qual é a coisa mais embaraçosa que seus pais já pegaram você fazendo?</item>
+        <item>Qual é o seu brinquedo sexual favorito (pode ter realmente usado ou só saber sobre)?</item>
+        <item>Qual foi a coisa mais cruel que você já fez com um namorado ou namorada?</item>
+        <item>Qual foi a coisa mais estranha que já te deixou excitado?</item>
+        <item>Qual foi a coisa mais estranha que você já fez na frente de um espelho?</item>
+        <item>Qual foi a coisa mais nojenta que você já fez na cama?</item>
+        <item>Qual foi o maior número de vezes que você se masturbou em um único dia?</item>
+        <item>Qual foi o pensamento mais sujo e erótico que você já teve?</item>
+        <item>Você já enviou alguma nude para alguém errado? Descreva</item>
+        <item>Qual o lugar mais esquisito ou curioso que você já transou?</item>
+        <item>Qual o maior segredo que você já escondeu de algum namorado ou namorada?</item>
+        <item>Qual o seu marco sexual mais memorável até agora?</item>
+        <item>Quem foi a última pessoa que você chupou?</item>
+        <item>Qual o sonho erótico mais pesado que você já teve?</item>
+        <item>Qual pessoa dessa sala você considera mais promíscua?</item>
+        <item>Você já fez sexo com mais de uma pessoa ao mesmo tempo?</item>
+        <item>Qual seria a primeira coisa que você faria se acordasse por um dia sendo do sexo oposto?</item>
+        <item>Qual você acha que é a posição sexual favorita de seus pais e por quê?</item>
+        <item>Quando foi a última vez que te deram um fora e como lidou com isso?</item>
+        <item>Que atividade sexual você nunca toparia fazer?</item>
+        <item>Se você pudesse apagar uma experiência sexual passada, qual seria?</item>
+        <item>Se você pudesse repetir uma experiência sexual passada, qual seria?</item>
+        <item>Você já achou que tivesse pego alguma DST ?</item>
+        <item>Você já mandou o mesmo nude para duas pessoas ao mesmo tempo?</item>
+        <item>Você já teve um sonho erótico com algum professor?</item>
+        <item>Você já viu algum vizinho pelado?</item>
+        <item>O que você faria se pegasse seu namorado ou namorada na cama com outro?</item>
+    </string-array>
+
+    <string-array name="challenge_hot">
+        <item>Mande uma mensagem safada para algum contato do seu celular "acidentalmente"</item>
+        <item>Abaixe suas calças no meio da rua</item>
+        <item>Vá na varanda e mostre seu pênis ou seus peitos</item>
+        <item>Faça uma dança sensual para alguém do círculo</item>
+        <item>Tire uma nude no banheiro e mostre para alguém do grupo por 5 segundos</item>
+        <item>Procure um pornô na internet e narre com detalhes para o grupo</item>
+        <item>Envie uma mensagem de texto mais safada e suja que você possa imaginar para todos aqui do grupo</item>
+        <item>Tire uma peça de roupa a cada vez que você falar a palavra “não” durante o jogo</item>
+        <item>Faça bodyshot em alguém do grupo (colocar bebida no corpo de alguém e depois beber)</item>
+        <item>Finja que está transando com alguém</item>
+        <item>Coloque uma música sexy e faça um striptease para o grupo</item>
+        <item>Deixe que alguém do grupo te faça um chupão</item>
+        <item>Finja que você está tendo um orgasmo</item>
+        <item>Mande um semi-nude para um contato do seu celular</item>
+        <item>Use sua boca para abrir as calças de alguém de sua escolha</item>
+        <item>Faça sexo oral em uma banana ou pepino</item>
+        <item>Responda os stories de alguém dizendo que a pessoa te deixou com tesãoPasse um cubo de gelo da sua boca para a boca da pessoa à sua esquerda</item>
+        <item></item>
+    </string-array>
 </resources>
